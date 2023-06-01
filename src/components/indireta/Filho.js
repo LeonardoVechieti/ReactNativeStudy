@@ -12,9 +12,12 @@ export default (props) => {
         <View >
             <Button
                 title="Executar"
-                onPress={() => { props.funcao(geraNumero(props.min, props.max))
+                onPress={() => {
+                    props.funcao(geraNumero(props.min, props.max))
                 }}
             />
+
+
         </View>
 
     )
